@@ -1,0 +1,12 @@
+{
+  "instance": "RGG-2000",
+  "algorithm": "MOPSO",
+  "seed": 101,
+  "run_idx": 0,
+  "evals": 3000,
+  "runtime": 17.70706605911255,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

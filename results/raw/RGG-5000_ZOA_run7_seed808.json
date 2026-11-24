@@ -1,0 +1,12 @@
+{
+  "instance": "RGG-5000",
+  "algorithm": "ZOA",
+  "seed": 808,
+  "run_idx": 7,
+  "evals": 3000,
+  "runtime": 50.98139429092407,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

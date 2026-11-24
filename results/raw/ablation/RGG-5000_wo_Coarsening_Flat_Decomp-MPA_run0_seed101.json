@@ -1,0 +1,11 @@
+{
+  "instance": "RGG-5000",
+  "variant": "w/o Coarsening (Flat Decomp.-MPA)",
+  "seed": 101,
+  "run_idx": 0,
+  "evals": 3000,
+  "runtime": 57.52346420288086,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": []
+}

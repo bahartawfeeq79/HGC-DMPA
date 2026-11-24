@@ -1,0 +1,31 @@
+{
+  "instance": "Hosp.-1000",
+  "algorithm": "MOEA/D",
+  "seed": 808,
+  "run_idx": 7,
+  "evals": 3000,
+  "runtime": 24.780473232269287,
+  "is_feasible": true,
+  "feasible_count": 1,
+  "front": [
+    [
+      0.18277382443957535,
+      0.11282390154252514,
+      0.8399956674749028,
+      0.5283927715929504
+    ]
+  ],
+  "route_stats": [
+    {
+      "hops": 9,
+      "trust": 0.8172261755604247,
+      "latency": 0.11282390154252514,
+      "energy": 0.8399956674749028,
+      "qos": 0.47160722840704966,
+      "min_relay_battery": 0.8087672558793434,
+      "min_relay_trust": 0.700088138484907,
+      "compromised_relays": 0,
+      "latency_margin": 0.06399089213163289
+    }
+  ]
+}

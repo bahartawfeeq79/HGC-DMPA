@@ -1,0 +1,47 @@
+# Paper-Faithful Parameter Configuration for HGC-DMPA and Baselines
+# Extracted directly from Tawfeeq (2026), Table IV & Section IV
+
+trust:
+  alpha: 0.7            # Direct trust weight (vs indirect trust)
+  beta: 0.3             # Social relationship bonus weight
+  gamma: 0.5            # Social-trust affinity weight for Louvain modularity
+  w_cl: 0.4             # Co-location weight in social score
+  w_cw: 0.4             # Co-work weight in social score
+  w_ol: 0.2             # Ownership weight in social score
+  eps: 1.0e-9           # Numerical safeguard for indirect trust denominator
+
+coarsening:
+  t_min: 0.35           # Zero-trust hard floor for node admission
+  bat_min: 0.10         # Minimum residual battery floor for node admission
+  t_rep: 0.70           # BA-TPR vulnerability threshold for weak relays
+
+objectives:
+  payload_bits: 100000.0          # B = 10^5 bits
+  cpu_cycles_per_hop: 10000000.0  # C = 10^7 cycles
+  e_el: 50.0e-9                   # Radio electronics energy: 50 nJ/bit
+  eps_amp: 100.0e-12              # Amplifier energy: 100 pJ/bit/m^2
+  kappa: 1.0e-27                  # CPU capacitance coefficient
+  cpu_ref: 1.5                    # CPU reference frequency: 1.5 GHz
+  ram_ref: 2.0                    # RAM reference capacity: 2.0 GB
+  bw_ref: 20.0                    # Bandwidth reference: 20 Mbps
+  deadline_factor_general: 1.5    # General network deadline: 1.5x fastest admissible path
+  deadline_factor_hospital: 1.3   # Hospital mesh deadline: 1.3x fastest admissible path
+
+decoder:
+  mu: 1.5               # Trust prior weight in random-key decoding
+  nu: 1.0               # Latency prior weight in random-key decoding
+  lb: -5.0              # Lower bound for random keys
+  ub: 5.0               # Upper bound for random keys
+
+algorithm:
+  n_pop: 40             # Population size (and Das-Dennis weight subproblems)
+  n_arch: 40            # External Pareto archive capacity
+  t_nbr: 8              # Neighborhood size in weight vector space
+  n_r: 2                # Maximum number of neighbor solutions updated per candidate
+  eval_budget: 3000     # Shared objective evaluation budget
+  p_step: 0.5           # MPA step constant P
+  beta_l: 1.5           # MPA Levy index beta_L
+  p_fads_min: 0.1       # Minimum FADs probability
+  p_fads_max: 0.4       # Maximum FADs probability
+  rho_tch: 0.001        # Augmented Tchebycheff augmentation coefficient
+  p_elite_archive: 0.1  # Probability of sampling predator guide from archive (vs neighborhood)

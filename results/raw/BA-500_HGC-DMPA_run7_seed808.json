@@ -1,0 +1,12 @@
+{
+  "instance": "BA-500",
+  "algorithm": "HGC-DMPA",
+  "seed": 808,
+  "run_idx": 7,
+  "evals": 3000,
+  "runtime": 2.815662145614624,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

@@ -1,0 +1,31 @@
+{
+  "instance": "BA-500",
+  "algorithm": "MOEA/D",
+  "seed": 1010,
+  "run_idx": 9,
+  "evals": 3000,
+  "runtime": 2.93298077583313,
+  "is_feasible": true,
+  "feasible_count": 1,
+  "front": [
+    [
+      0.2000384244809721,
+      0.09401390664994334,
+      12.966456145886815,
+      0.13475606796417694
+    ]
+  ],
+  "route_stats": [
+    {
+      "hops": 8,
+      "trust": 0.7999615755190279,
+      "latency": 0.09401390664994334,
+      "energy": 12.966456145886815,
+      "qos": 0.8652439320358231,
+      "min_relay_battery": 0.3161197981847281,
+      "min_relay_trust": 0.7478871886923895,
+      "compromised_relays": 0,
+      "latency_margin": 0.1396418898284201
+    }
+  ]
+}

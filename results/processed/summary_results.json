@@ -1,0 +1,830 @@
+{
+  "RGG-500": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.37743728001403765,
+      "hv_std": 0.03239343985880251,
+      "igd_mean": 0.24312698864459853,
+      "igd_std": 0.02325775635637424,
+      "runtime_mean": 12.151361680030822
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 3,
+      "feas_pct": 30.0,
+      "hv_mean": 0.008195763661652897,
+      "hv_std": 0.01350314807088549,
+      "igd_mean": 0.6955001858395206,
+      "igd_std": 0.05610547184877521,
+      "runtime_mean": 4.731378698348999
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 3,
+      "feas_pct": 30.0,
+      "hv_mean": 0.021312989429760225,
+      "hv_std": 0.03846240475822627,
+      "igd_mean": 0.5737959929524591,
+      "igd_std": 0.07882969581145723,
+      "runtime_mean": 9.61551547050476
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 3,
+      "feas_pct": 30.0,
+      "hv_mean": 0.02264925214991729,
+      "hv_std": 0.038813348834204266,
+      "igd_mean": 0.552756120036161,
+      "igd_std": 0.06865392118152083,
+      "runtime_mean": 9.801333570480347
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 5,
+      "feas_pct": 50.0,
+      "hv_mean": 0.011390659627677054,
+      "hv_std": 0.01862175105396785,
+      "igd_mean": 0.8000583143831894,
+      "igd_std": 0.17249501365555153,
+      "runtime_mean": 4.828298830986023
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 3,
+      "feas_pct": 30.0,
+      "hv_mean": 0.017091213958347895,
+      "hv_std": 0.04702959080411148,
+      "igd_mean": 0.7078739897165661,
+      "igd_std": 0.22581425423475976,
+      "runtime_mean": 4.565013432502747
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 5,
+      "feas_pct": 50.0,
+      "hv_mean": 0.03714763696836147,
+      "hv_std": 0.0428199807357991,
+      "igd_mean": 0.5613844159829963,
+      "igd_std": 0.056276956165190115,
+      "runtime_mean": 4.748489904403686
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 2,
+      "feas_pct": 20.0,
+      "hv_mean": 0.01014995726654898,
+      "hv_std": 0.025338923514455942,
+      "igd_mean": 0.6271172937309988,
+      "igd_std": 0.1273752861417732,
+      "runtime_mean": 4.603011131286621
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 0.5140948221089555,
+      "hv_std": 0.0,
+      "igd_mean": 0.27934149261215774,
+      "igd_std": 0.0,
+      "runtime_mean": 498.54972219467163
+    }
+  },
+  "RGG-1000": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.3546258663547202,
+      "hv_std": 0.028114971575488944,
+      "igd_mean": 0.26395630751797433,
+      "igd_std": 0.016735288946684256,
+      "runtime_mean": 32.53591046333313
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.012111860116876757,
+      "hv_std": 0.003469476779943271,
+      "igd_mean": 0.8111533930309136,
+      "igd_std": 0.03833998012325043,
+      "runtime_mean": 11.081110835075378
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.00966574108033408,
+      "hv_std": 0.0057731290093551105,
+      "igd_mean": 0.8468153377726091,
+      "igd_std": 0.08221456611246093,
+      "runtime_mean": 19.30088119506836
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.00988226952262455,
+      "hv_std": 0.0038199645381438384,
+      "igd_mean": 0.8385380149185441,
+      "igd_std": 0.04585180743064778,
+      "runtime_mean": 20.246766638755798
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.008728273783179936,
+      "hv_std": 0.0066983626215373435,
+      "igd_mean": 0.8632368589780318,
+      "igd_std": 0.08894245193576382,
+      "runtime_mean": 12.583025312423706
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.01622890026505187,
+      "hv_std": 0.0018209212586953532,
+      "igd_mean": 0.7437086815026807,
+      "igd_std": 0.02653458530543457,
+      "runtime_mean": 10.199930477142335
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.016637911030835468,
+      "hv_std": 0.003944012862154819,
+      "igd_mean": 0.7636169191984901,
+      "igd_std": 0.03495548205371153,
+      "runtime_mean": 9.82517921924591
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.014201354349643269,
+      "hv_std": 0.008969986061799846,
+      "igd_mean": 0.8103242620674174,
+      "igd_std": 0.07969181961738539,
+      "runtime_mean": 11.06902220249176
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 0.8619509755263733,
+      "hv_std": 0.0,
+      "igd_mean": 0.1651836959176643,
+      "igd_std": 0.0,
+      "runtime_mean": 1962.9081931114197
+    }
+  },
+  "RGG-2000": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.39923049548940276,
+      "hv_std": 0.03757940091666216,
+      "igd_mean": 0.23275518199534123,
+      "igd_std": 0.020712348865379437,
+      "runtime_mean": 47.752107334136966
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 17.85695562362671
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 37.4221994638443
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 37.72652862071991
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 18.972795605659485
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 18.137035369873047
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 18.32604455947876
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 18.908361411094667
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 0.4842689816666721,
+      "hv_std": 0.0,
+      "igd_mean": 0.8669892855534163,
+      "igd_std": 0.0,
+      "runtime_mean": 2726.2644736766815
+    }
+  },
+  "RGG-3500": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.3797057533555807,
+      "hv_std": 0.1021388499900495,
+      "igd_mean": 0.2925257412085324,
+      "igd_std": 0.05308361901606638,
+      "runtime_mean": 85.66175229549408
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 9,
+      "feas_pct": 90.0,
+      "hv_mean": 0.07479209342440012,
+      "hv_std": 0.04067685823410973,
+      "igd_mean": 0.4840889222296724,
+      "igd_std": 0.10000303099003399,
+      "runtime_mean": 41.73410129547119
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 8,
+      "feas_pct": 80.0,
+      "hv_mean": 0.07805959644070778,
+      "hv_std": 0.057660119943167124,
+      "igd_mean": 0.4486670080544142,
+      "igd_std": 0.11569909993383168,
+      "runtime_mean": 76.98039145469666
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 8,
+      "feas_pct": 80.0,
+      "hv_mean": 0.09302104625308275,
+      "hv_std": 0.06023046587525794,
+      "igd_mean": 0.40548740097444674,
+      "igd_std": 0.10396772427599052,
+      "runtime_mean": 78.52526466846466
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 1,
+      "feas_pct": 10.0,
+      "hv_mean": 0.014985040340929396,
+      "hv_std": 0.04495512102278819,
+      "igd_mean": 0.3622567145612445,
+      "igd_std": 0.0,
+      "runtime_mean": 38.04334592819214
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.1459330663801543,
+      "hv_std": 0.024268499264024967,
+      "igd_mean": 0.3503943818290892,
+      "igd_std": 0.03484472363963493,
+      "runtime_mean": 38.5951566696167
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.16557500582138612,
+      "hv_std": 0.011947886507088066,
+      "igd_mean": 0.32489570540849855,
+      "igd_std": 0.017503350287497294,
+      "runtime_mean": 37.64900069236755
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 38.63540790081024
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 0.2005760348648575,
+      "hv_std": 0.0,
+      "igd_mean": 0.4160961457121758,
+      "igd_std": 0.0,
+      "runtime_mean": 4628.758555650711
+    }
+  },
+  "RGG-5000": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.35043624434758136,
+      "hv_std": 0.04398603644524506,
+      "igd_mean": 0.248638928777366,
+      "igd_std": 0.01729545163213083,
+      "runtime_mean": 99.6892832994461
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 52.41747486591339
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 103.08478286266327
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 100.60397908687591
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 51.09922654628754
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 52.88978471755981
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 50.5313143491745
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 0,
+      "feas_pct": 0.0,
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "igd_mean": NaN,
+      "igd_std": NaN,
+      "runtime_mean": 49.789830565452576
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 0.4783887724551335,
+      "hv_std": 0.0,
+      "igd_mean": 0.4351661661192101,
+      "igd_std": 0.0,
+      "runtime_mean": 11225.33953499794
+    }
+  },
+  "Hosp.-1000": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 9,
+      "feas_pct": 90.0,
+      "hv_mean": 0.4282076536705376,
+      "hv_std": 0.297827381814974,
+      "igd_mean": 0.44803769458933435,
+      "igd_std": 0.11910686609774118,
+      "runtime_mean": 74.46171727180482
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.08364193560687044,
+      "hv_std": 0.04628071400354304,
+      "igd_mean": 0.6148108586383435,
+      "igd_std": 0.0956893088509513,
+      "runtime_mean": 20.759553098678587
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 9,
+      "feas_pct": 90.0,
+      "hv_mean": 0.046834718014186934,
+      "hv_std": 0.04292345290880603,
+      "igd_mean": 0.71091673388402,
+      "igd_std": 0.15504453958985154,
+      "runtime_mean": 31.454566526412965
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 9,
+      "feas_pct": 90.0,
+      "hv_mean": 0.043974188880056796,
+      "hv_std": 0.044554043466408254,
+      "igd_mean": 0.7227998158268883,
+      "igd_std": 0.14453101663559215,
+      "runtime_mean": 32.36676743030548
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 7,
+      "feas_pct": 70.0,
+      "hv_mean": 0.027612721000325684,
+      "hv_std": 0.032088512530830275,
+      "igd_mean": 0.7268858284798295,
+      "igd_std": 0.13227457809543083,
+      "runtime_mean": 23.99487144947052
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.07037315628527985,
+      "hv_std": 0.03559667779744844,
+      "igd_mean": 0.6223704046006413,
+      "igd_std": 0.07934318601300727,
+      "runtime_mean": 19.57134473323822
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.0823913150856482,
+      "hv_std": 0.043102899002365934,
+      "igd_mean": 0.6154194233311466,
+      "igd_std": 0.11873712454216477,
+      "runtime_mean": 19.854790210723877
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 9,
+      "feas_pct": 90.0,
+      "hv_mean": 0.060887174486258334,
+      "hv_std": 0.05224410268197739,
+      "igd_mean": 0.6591450406610979,
+      "igd_std": 0.11797635589941728,
+      "runtime_mean": 20.67859630584717
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 1.0161221662692064,
+      "hv_std": 0.0,
+      "igd_mean": 0.07958497142423383,
+      "igd_std": 0.0,
+      "runtime_mean": 2197.5312175750732
+    }
+  },
+  "Brightkite": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.24149233046083446,
+      "hv_std": 0.13767192078562945,
+      "igd_mean": 0.4184506820611588,
+      "igd_std": 0.08115429888976576,
+      "runtime_mean": 11.1234797000885
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.3964038804568875,
+      "hv_std": 0.03660118134690643,
+      "igd_mean": 0.2820167155740015,
+      "igd_std": 0.03415442485122104,
+      "runtime_mean": 5.085988974571228
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.39903103264323847,
+      "hv_std": 0.05016810453249925,
+      "igd_mean": 0.2674134186221614,
+      "igd_std": 0.030408951945550385,
+      "runtime_mean": 14.419053196907043
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.3919076047132779,
+      "hv_std": 0.030734164497553628,
+      "igd_mean": 0.26744936799971075,
+      "igd_std": 0.035975734274939844,
+      "runtime_mean": 15.217840600013734
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.36493464100715306,
+      "hv_std": 0.02887611649766086,
+      "igd_mean": 0.3071144576229772,
+      "igd_std": 0.021116258829617894,
+      "runtime_mean": 5.495721292495728
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.3914608897060799,
+      "hv_std": 0.02948798325978955,
+      "igd_mean": 0.2662325536832034,
+      "igd_std": 0.020839264499443618,
+      "runtime_mean": 5.0405100107192995
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.40948008477091175,
+      "hv_std": 0.032041651680131074,
+      "igd_mean": 0.24444406504477958,
+      "igd_std": 0.0355530726746477,
+      "runtime_mean": 4.647987580299377
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.3729704850927008,
+      "hv_std": 0.028683550639588298,
+      "igd_mean": 0.2882033728457235,
+      "igd_std": 0.024919782899746848,
+      "runtime_mean": 4.87993369102478
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 0.6252630132978436,
+      "hv_std": 0.0,
+      "igd_mean": 0.10102781341028787,
+      "igd_std": 0.0,
+      "runtime_mean": 414.4156177043915
+    }
+  },
+  "BA-500": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 9,
+      "feas_pct": 90.0,
+      "hv_mean": 0.5559047187160093,
+      "hv_std": 0.259523294944217,
+      "igd_mean": 0.4619178420325244,
+      "igd_std": 0.09841065877877611,
+      "runtime_mean": 4.423460197448731
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.341378619643456,
+      "hv_std": 0.17278018490458513,
+      "igd_mean": 0.4555730346861374,
+      "igd_std": 0.030204328111007966,
+      "runtime_mean": 2.5734615564346313
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 9,
+      "feas_pct": 90.0,
+      "hv_mean": 0.2089416060942965,
+      "hv_std": 0.16870648205293082,
+      "igd_mean": 0.5929192802100264,
+      "igd_std": 0.16128231427027012,
+      "runtime_mean": 6.991641330718994
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 9,
+      "feas_pct": 90.0,
+      "hv_mean": 0.23095145767581854,
+      "hv_std": 0.1897605195531099,
+      "igd_mean": 0.565858985974771,
+      "igd_std": 0.178197032531451,
+      "runtime_mean": 7.143703484535218
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 6,
+      "feas_pct": 60.0,
+      "hv_mean": 0.08483588388768701,
+      "hv_std": 0.09920126550479369,
+      "igd_mean": 0.5922889245740364,
+      "igd_std": 0.10860643029184552,
+      "runtime_mean": 3.2105682849884034
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.5500121864184948,
+      "hv_std": 0.18191224394966454,
+      "igd_mean": 0.41202039567754295,
+      "igd_std": 0.14844000933284762,
+      "runtime_mean": 2.532728886604309
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.5892230435168158,
+      "hv_std": 0.13612527216828704,
+      "igd_mean": 0.3264197686931408,
+      "igd_std": 0.03615872972511018,
+      "runtime_mean": 2.3091495275497436
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 3,
+      "feas_pct": 30.0,
+      "hv_mean": 0.041631127406064374,
+      "hv_std": 0.06919074986054988,
+      "igd_mean": 0.55897549574643,
+      "igd_std": 0.04488134654156204,
+      "runtime_mean": 2.312177610397339
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 0.8911902192373401,
+      "hv_std": 0.0,
+      "igd_mean": 0.06039139441544666,
+      "igd_std": 0.0,
+      "runtime_mean": 72.363924741745
+    }
+  },
+  "BA-1500": {
+    "HGC-DMPA": {
+      "runs_completed": 10,
+      "feas_count": 8,
+      "feas_pct": 80.0,
+      "hv_mean": 0.10576822807241634,
+      "hv_std": 0.11288794935858973,
+      "igd_mean": 0.5643461010468678,
+      "igd_std": 0.12808741717211608,
+      "runtime_mean": 6.308321785926819
+    },
+    "MPA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.3791046247826339,
+      "hv_std": 0.05098465849059343,
+      "igd_mean": 0.3598662052669136,
+      "igd_std": 0.07666470524641668,
+      "runtime_mean": 4.167858386039734
+    },
+    "NSGA-II": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.36499093010251465,
+      "hv_std": 0.09584042616359438,
+      "igd_mean": 0.32685748677762894,
+      "igd_std": 0.04053881972000981,
+      "runtime_mean": 18.707215118408204
+    },
+    "NSGA-III": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.4272707304685987,
+      "hv_std": 0.08173399081511022,
+      "igd_mean": 0.28218863291688945,
+      "igd_std": 0.019710541643734553,
+      "runtime_mean": 18.467627596855163
+    },
+    "MOEA/D": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.24763672459144243,
+      "hv_std": 0.09538857892319696,
+      "igd_mean": 0.410607841976803,
+      "igd_std": 0.08428836076762163,
+      "runtime_mean": 4.42068567276001
+    },
+    "MOPSO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.32640446964215586,
+      "hv_std": 0.064474830771503,
+      "igd_mean": 0.36227910185991313,
+      "igd_std": 0.06797738211177354,
+      "runtime_mean": 3.6370089530944822
+    },
+    "ZOA": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.4675343084562903,
+      "hv_std": 0.06666219940798591,
+      "igd_mean": 0.25215237842960864,
+      "igd_std": 0.02956693344559781,
+      "runtime_mean": 3.359208679199219
+    },
+    "CPO": {
+      "runs_completed": 10,
+      "feas_count": 10,
+      "feas_pct": 100.0,
+      "hv_mean": 0.2579366414876226,
+      "hv_std": 0.10342520415430104,
+      "igd_mean": 0.4494671119858957,
+      "igd_std": 0.12098220176482796,
+      "runtime_mean": 3.5606375217437742
+    },
+    "WS-KSP": {
+      "runs_completed": 1,
+      "feas_count": 1,
+      "feas_pct": 100.0,
+      "hv_mean": 0.6743371634120044,
+      "hv_std": 0.0,
+      "igd_mean": 0.02944474558476546,
+      "igd_std": 0.0,
+      "runtime_mean": 76.90463542938232
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "instance": "BA-500",
+  "algorithm": "HGC-DMPA",
+  "seed": 505,
+  "run_idx": 4,
+  "evals": 3000,
+  "runtime": 4.052955865859985,
+  "is_feasible": true,
+  "feasible_count": 1,
+  "front": [
+    [
+      0.18794159132602317,
+      0.07743109323067836,
+      6.545802505583305,
+      0.19781918017497935
+    ]
+  ],
+  "route_stats": [
+    {
+      "hops": 6,
+      "trust": 0.8120584086739768,
+      "latency": 0.07743109323067836,
+      "energy": 6.545802505583305,
+      "qos": 0.8021808198250207,
+      "min_relay_battery": 0.3161197981847281,
+      "min_relay_trust": 0.7498073948518031,
+      "compromised_relays": 0,
+      "latency_margin": 0.2913977153559123
+    }
+  ]
+}

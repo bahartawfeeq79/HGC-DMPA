@@ -1,0 +1,29 @@
+# Experiment execution configuration
+
+experiment:
+  runs_per_algorithm: 30
+  eval_budget: 3000
+  reference_point: [1.1, 1.1, 1.1, 1.1]
+  significance_level: 0.05
+  correction_method: "holm"
+  stochastic_algorithms:
+    - "HGC-DMPA"
+    - "MPA"
+    - "NSGA-II"
+    - "NSGA-III"
+    - "MOEA/D"
+    - "MOPSO"
+    - "ZOA"
+    - "CPO"
+  deterministic_algorithms:
+    - "WS-KSP"
+  ablation_variants:
+    - "Full HGC-DMPA"
+    - "w/o Decomposition (HGC-MPA)"
+    - "Unweighted Louvain Coarsening"
+    - "w/o BA-TPR"
+    - "w/o Coarsening (Flat Decomp.-MPA)"
+  ablation_benchmarks:
+    - "RGG-1000"
+    - "RGG-2000"
+    - "RGG-5000"

@@ -1,0 +1,12 @@
+{
+  "instance": "RGG-5000",
+  "algorithm": "MPA",
+  "seed": 303,
+  "run_idx": 2,
+  "evals": 3000,
+  "runtime": 49.90179252624512,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

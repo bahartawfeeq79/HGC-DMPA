@@ -1,0 +1,12 @@
+{
+  "instance": "BA-500",
+  "algorithm": "MOEA/D",
+  "seed": 909,
+  "run_idx": 8,
+  "evals": 3000,
+  "runtime": 3.264864206314087,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

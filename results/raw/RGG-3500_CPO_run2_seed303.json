@@ -1,0 +1,12 @@
+{
+  "instance": "RGG-3500",
+  "algorithm": "CPO",
+  "seed": 303,
+  "run_idx": 2,
+  "evals": 3000,
+  "runtime": 39.41755127906799,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

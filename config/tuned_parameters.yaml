@@ -1,0 +1,36 @@
+# Independently Tuned Parameter Configurations
+# Tested on independent seed graphs: RGG-300, RGG-800, Hosp.-1000-seed, BA-500-seed
+# Parameters frozen before testing to prevent data leakage
+
+tuned_parameters:
+  trust:
+    alpha: 0.70
+    beta: 0.30
+    gamma: 0.50
+  coarsening:
+    t_min: 0.35
+    bat_min: 0.10
+    t_rep: 0.70
+  decoder:
+    mu: 1.50
+    nu: 1.00
+  algorithm:
+    n_pop: 40
+    n_arch: 40
+    t_nbr: 8
+    n_r: 2
+    eval_budget: 3000
+    p_step: 0.50
+    beta_l: 1.50
+    p_fads_min: 0.10
+    p_fads_max: 0.40
+    rho_tch: 0.001
+
+tuning_ranges_evaluated:
+  alpha: [0.5, 0.6, 0.7, 0.8]
+  beta: [0.1, 0.2, 0.3, 0.4]
+  gamma: [0.3, 0.5, 0.7, 1.0]
+  mu: [1.0, 1.5, 2.0]
+  nu: [0.5, 1.0, 1.5]
+  t_rep: [0.60, 0.70, 0.80]
+  t_nbr: [4, 6, 8, 10]

@@ -1,0 +1,101 @@
+# Benchmark Instances Configuration (Table I & Table IV)
+
+benchmarks:
+  RGG-500:
+    class: "rgg"
+    nodes: 500
+    target_nodes: 491
+    target_edges: 1718
+    target_diameter: 19
+    compromised_count: 32
+    avg_degree: 7.0
+    area_side: 1000.0
+    deadline_factor: 1.5
+
+  RGG-1000:
+    class: "rgg"
+    nodes: 1000
+    target_nodes: 984
+    target_edges: 3444
+    target_diameter: 31
+    compromised_count: 65
+    avg_degree: 7.0
+    area_side: 1414.0
+    deadline_factor: 1.5
+
+  RGG-2000:
+    class: "rgg"
+    nodes: 2000
+    target_nodes: 1968
+    target_edges: 6888
+    target_diameter: 53
+    compromised_count: 130
+    avg_degree: 7.0
+    area_side: 2000.0
+    deadline_factor: 1.5
+
+  RGG-3500:
+    class: "rgg"
+    nodes: 3500
+    target_nodes: 3441
+    target_edges: 12043
+    target_diameter: 69
+    compromised_count: 225
+    avg_degree: 7.0
+    area_side: 2645.0
+    deadline_factor: 1.5
+
+  RGG-5000:
+    class: "rgg"
+    nodes: 5000
+    target_nodes: 4912
+    target_edges: 17192
+    target_diameter: 84
+    compromised_count: 320
+    avg_degree: 7.0
+    area_side: 3162.0
+    deadline_factor: 1.5
+
+  Hosp.-1000:
+    class: "hospital"
+    nodes: 1000
+    target_nodes: 1000
+    target_edges: 4620
+    target_diameter: 12
+    compromised_count: 40
+    area_width: 300.0
+    area_height: 120.0
+    edge_gateways: 160
+    wearable_sensors: 640
+    stationary_instruments: 180
+    edge_cloud_servers: 20
+    deadline_factor: 1.3
+
+  Brightkite:
+    class: "brightkite"
+    nodes: 1000
+    target_nodes: 1000
+    target_edges: 7381
+    target_diameter: 9
+    compromised_count: 50
+    deadline_factor: 1.5
+
+  BA-500:
+    class: "barabasi_albert"
+    nodes: 500
+    target_nodes: 500
+    target_edges: 1984
+    target_diameter: 3
+    compromised_count: 25
+    m_attach: 4
+    deadline_factor: 1.5
+
+  BA-1500:
+    class: "barabasi_albert"
+    nodes: 1500
+    target_nodes: 1500
+    target_edges: 5984
+    target_diameter: 4
+    compromised_count: 75
+    m_attach: 4
+    deadline_factor: 1.5

@@ -1,0 +1,31 @@
+{
+  "instance": "Hosp.-1000",
+  "algorithm": "NSGA-III",
+  "seed": 808,
+  "run_idx": 7,
+  "evals": 3000,
+  "runtime": 33.317002296447754,
+  "is_feasible": true,
+  "feasible_count": 1,
+  "front": [
+    [
+      0.14047133447819493,
+      0.11881459643630476,
+      1.2519556293696474,
+      0.5330207666560445
+    ]
+  ],
+  "route_stats": [
+    {
+      "hops": 10,
+      "trust": 0.8595286655218051,
+      "latency": 0.11881459643630476,
+      "energy": 1.2519556293696474,
+      "qos": 0.4669792333439555,
+      "min_relay_battery": 0.8087672558793434,
+      "min_relay_trust": 0.7018633829351768,
+      "compromised_relays": 0,
+      "latency_margin": 0.01429091804480564
+    }
+  ]
+}

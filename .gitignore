@@ -1,0 +1,41 @@
+# ==============================================================================
+# HGC-DMPA Practical Section Repository - Git Ignore Rules
+# ==============================================================================
+
+# Exclude all article text and manuscript files
+article.*
+manuscript/
+FINAL_RESEARCH_REPORT.md
+figures/
+documentation/article_methodology_extraction.md
+
+# Large raw dataset archives (>50MB, downloadable via src/data/download_datasets.py)
+datasets/raw/brightkite/loc-brightkite_totalCheckins.txt.gz
+
+# Python bytecode and caching
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment and IDE files
+.venv/
+env/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

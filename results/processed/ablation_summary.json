@@ -1,0 +1,113 @@
+{
+  "RGG-1000": {
+    "Full HGC-DMPA": {
+      "hv_mean": 0.6790797291482523,
+      "hv_std": 0.04545197334009721,
+      "delta_hv_pct": 0.0,
+      "igd_mean": 0.1715806788131068,
+      "feas_pct": 100.0
+    },
+    "w/o Decomposition (HGC-MPA)": {
+      "hv_mean": 0.6355571979184591,
+      "hv_std": 0.05341802103497724,
+      "delta_hv_pct": 6.409045854509913,
+      "igd_mean": 0.17666740372674006,
+      "feas_pct": 100.0
+    },
+    "Unweighted Louvain Coarsening": {
+      "hv_mean": 0.6364249540851002,
+      "hv_std": 0.06241926277785153,
+      "delta_hv_pct": 6.281261718215705,
+      "igd_mean": 0.17287528569952965,
+      "feas_pct": 100.0
+    },
+    "w/o BA-TPR": {
+      "hv_mean": 0.6754493911535288,
+      "hv_std": 0.043319285500311965,
+      "delta_hv_pct": 0.5345967253767064,
+      "igd_mean": 0.17896221098125786,
+      "feas_pct": 100.0
+    },
+    "w/o Coarsening (Flat Decomp.-MPA)": {
+      "hv_mean": 0.06390597506255927,
+      "hv_std": 0.009743876330304095,
+      "delta_hv_pct": 90.58932665495487,
+      "igd_mean": 0.5125126979201509,
+      "feas_pct": 100.0
+    }
+  },
+  "RGG-2000": {
+    "Full HGC-DMPA": {
+      "hv_mean": 0.6033947860422897,
+      "hv_std": 0.043064615723507525,
+      "delta_hv_pct": 0.0,
+      "igd_mean": 0.20334193283488977,
+      "feas_pct": 100.0
+    },
+    "w/o Decomposition (HGC-MPA)": {
+      "hv_mean": 0.526776501515241,
+      "hv_std": 0.0913872460098797,
+      "delta_hv_pct": 12.697869835699702,
+      "igd_mean": 0.21667892565146923,
+      "feas_pct": 100.0
+    },
+    "Unweighted Louvain Coarsening": {
+      "hv_mean": 0.5553249969690915,
+      "hv_std": 0.0960510505694677,
+      "delta_hv_pct": 7.966556918479754,
+      "igd_mean": 0.20230931527611634,
+      "feas_pct": 100.0
+    },
+    "w/o BA-TPR": {
+      "hv_mean": 0.6628331215745359,
+      "hv_std": 0.06173653767170931,
+      "delta_hv_pct": -9.850654481472498,
+      "igd_mean": 0.20058784939794666,
+      "feas_pct": 100.0
+    },
+    "w/o Coarsening (Flat Decomp.-MPA)": {
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "delta_hv_pct": 100.0,
+      "igd_mean": NaN,
+      "feas_pct": 0.0
+    }
+  },
+  "RGG-5000": {
+    "Full HGC-DMPA": {
+      "hv_mean": 0.40351490198658846,
+      "hv_std": 0.04520923608562634,
+      "delta_hv_pct": 0.0,
+      "igd_mean": 0.15996655317152675,
+      "feas_pct": 100.0
+    },
+    "w/o Decomposition (HGC-MPA)": {
+      "hv_mean": 0.3675097696848354,
+      "hv_std": 0.09303274867569684,
+      "delta_hv_pct": 8.922875493443302,
+      "igd_mean": 0.16697616852451952,
+      "feas_pct": 100.0
+    },
+    "Unweighted Louvain Coarsening": {
+      "hv_mean": 0.3705346670077027,
+      "hv_std": 0.06840043371238327,
+      "delta_hv_pct": 8.173238414868234,
+      "igd_mean": 0.16246295852331202,
+      "feas_pct": 100.0
+    },
+    "w/o BA-TPR": {
+      "hv_mean": 0.3963571236751589,
+      "hv_std": 0.045679151287701246,
+      "delta_hv_pct": 1.7738572419978318,
+      "igd_mean": 0.16196666781940913,
+      "feas_pct": 100.0
+    },
+    "w/o Coarsening (Flat Decomp.-MPA)": {
+      "hv_mean": 0.0,
+      "hv_std": 0.0,
+      "delta_hv_pct": 100.0,
+      "igd_mean": NaN,
+      "feas_pct": 0.0
+    }
+  }
+}

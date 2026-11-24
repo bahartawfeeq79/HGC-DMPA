@@ -1,0 +1,12 @@
+{
+  "instance": "RGG-5000",
+  "algorithm": "MOEA/D",
+  "seed": 101,
+  "run_idx": 0,
+  "evals": 3000,
+  "runtime": 50.24766516685486,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

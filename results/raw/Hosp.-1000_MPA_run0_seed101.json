@@ -1,0 +1,31 @@
+{
+  "instance": "Hosp.-1000",
+  "algorithm": "MPA",
+  "seed": 101,
+  "run_idx": 0,
+  "evals": 3000,
+  "runtime": 20.156553030014038,
+  "is_feasible": true,
+  "feasible_count": 1,
+  "front": [
+    [
+      0.1496638087169313,
+      0.10663141172482948,
+      0.7845167961412233,
+      0.523719162944337
+    ]
+  ],
+  "route_stats": [
+    {
+      "hops": 9,
+      "trust": 0.8503361912830687,
+      "latency": 0.10663141172482948,
+      "energy": 0.7845167961412233,
+      "qos": 0.4762808370556631,
+      "min_relay_battery": 0.8565901039040796,
+      "min_relay_trust": 0.700088138484907,
+      "compromised_relays": 0,
+      "latency_margin": 0.11536499629306865
+    }
+  ]
+}

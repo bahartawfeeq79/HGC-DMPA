@@ -1,0 +1,116 @@
+{
+  "alpha": [
+    {
+      "param": 0.5,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 0.6,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 0.7,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 0.8,
+      "hv": 0.0,
+      "feasible": true
+    }
+  ],
+  "beta": [
+    {
+      "param": 0.1,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 0.2,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 0.3,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 0.4,
+      "hv": 0.0,
+      "feasible": true
+    }
+  ],
+  "gamma": [
+    {
+      "param": 0.3,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 0.5,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 0.7,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 1.0,
+      "hv": 0.0,
+      "feasible": true
+    }
+  ],
+  "t_rep": [
+    {
+      "param": 0.55,
+      "hv": 0.0,
+      "feasible": true,
+      "repairs_accepted": 115
+    },
+    {
+      "param": 0.65,
+      "hv": 0.0,
+      "feasible": true,
+      "repairs_accepted": 115
+    },
+    {
+      "param": 0.7,
+      "hv": 0.0,
+      "feasible": true,
+      "repairs_accepted": 115
+    },
+    {
+      "param": 0.8,
+      "hv": 0.0,
+      "feasible": true,
+      "repairs_accepted": 301
+    }
+  ],
+  "t_nbr": [
+    {
+      "param": 4,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 6,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 8,
+      "hv": 0.0,
+      "feasible": true
+    },
+    {
+      "param": 12,
+      "hv": 0.0,
+      "feasible": true
+    }
+  ]
+}

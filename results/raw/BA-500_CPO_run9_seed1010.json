@@ -1,0 +1,12 @@
+{
+  "instance": "BA-500",
+  "algorithm": "CPO",
+  "seed": 1010,
+  "run_idx": 9,
+  "evals": 3000,
+  "runtime": 2.3060147762298584,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

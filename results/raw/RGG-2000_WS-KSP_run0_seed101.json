@@ -1,0 +1,31 @@
+{
+  "instance": "RGG-2000",
+  "algorithm": "WS-KSP",
+  "seed": 101,
+  "run_idx": 0,
+  "evals": 3000,
+  "runtime": 2726.2644736766815,
+  "is_feasible": true,
+  "feasible_count": 1,
+  "front": [
+    [
+      0.16727869988106292,
+      0.9935887685216801,
+      234.51411457126702,
+      0.34580091544230174
+    ]
+  ],
+  "route_stats": [
+    {
+      "hops": 79,
+      "trust": 0.8327213001189371,
+      "latency": 0.9935887685216801,
+      "energy": 234.51411457126702,
+      "qos": 0.6541990845576983,
+      "min_relay_battery": 0.30197700280374146,
+      "min_relay_trust": 0.7008761308583291,
+      "compromised_relays": 0,
+      "latency_margin": 0.2422891605702287
+    }
+  ]
+}

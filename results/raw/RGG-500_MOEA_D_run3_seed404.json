@@ -1,0 +1,31 @@
+{
+  "instance": "RGG-500",
+  "algorithm": "MOEA/D",
+  "seed": 404,
+  "run_idx": 3,
+  "evals": 3000,
+  "runtime": 5.179197788238525,
+  "is_feasible": true,
+  "feasible_count": 1,
+  "front": [
+    [
+      0.20824303193953408,
+      0.5069154868411853,
+      121.87484624895983,
+      0.32161464705262777
+    ]
+  ],
+  "route_stats": [
+    {
+      "hops": 40,
+      "trust": 0.7917569680604659,
+      "latency": 0.5069154868411853,
+      "energy": 121.87484624895983,
+      "qos": 0.6783853529473722,
+      "min_relay_battery": 0.3089549987925776,
+      "min_relay_trust": 0.7013253831408766,
+      "compromised_relays": 0,
+      "latency_margin": 0.010617811045716727
+    }
+  ]
+}

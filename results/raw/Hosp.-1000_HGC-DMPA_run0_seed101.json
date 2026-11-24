@@ -1,0 +1,12 @@
+{
+  "instance": "Hosp.-1000",
+  "algorithm": "HGC-DMPA",
+  "seed": 101,
+  "run_idx": 0,
+  "evals": 3000,
+  "runtime": 75.59167265892029,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

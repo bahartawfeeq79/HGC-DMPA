@@ -1,0 +1,31 @@
+{
+  "instance": "BA-1500",
+  "algorithm": "HGC-DMPA",
+  "seed": 404,
+  "run_idx": 3,
+  "evals": 3000,
+  "runtime": 6.285382509231567,
+  "is_feasible": true,
+  "feasible_count": 1,
+  "front": [
+    [
+      0.2122018166665519,
+      0.06484170914209739,
+      5.803330432261905,
+      0.10284460255782435
+    ]
+  ],
+  "route_stats": [
+    {
+      "hops": 6,
+      "trust": 0.7877981833334481,
+      "latency": 0.06484170914209739,
+      "energy": 5.803330432261905,
+      "qos": 0.8971553974421757,
+      "min_relay_battery": 0.41191065572812013,
+      "min_relay_trust": 0.7528220838469882,
+      "compromised_relays": 0,
+      "latency_margin": 0.009302216621143588
+    }
+  ]
+}

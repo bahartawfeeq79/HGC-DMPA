@@ -1,0 +1,12 @@
+{
+  "instance": "BA-500",
+  "algorithm": "NSGA-III",
+  "seed": 404,
+  "run_idx": 3,
+  "evals": 3000,
+  "runtime": 7.367668390274048,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

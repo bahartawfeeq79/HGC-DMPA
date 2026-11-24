@@ -1,0 +1,12 @@
+{
+  "instance": "Hosp.-1000",
+  "algorithm": "MOEA/D",
+  "seed": 404,
+  "run_idx": 3,
+  "evals": 3000,
+  "runtime": 25.050318956375122,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

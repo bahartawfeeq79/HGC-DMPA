@@ -1,0 +1,12 @@
+{
+  "instance": "RGG-5000",
+  "algorithm": "NSGA-III",
+  "seed": 101,
+  "run_idx": 0,
+  "evals": 3000,
+  "runtime": 102.09717273712158,
+  "is_feasible": false,
+  "feasible_count": 0,
+  "front": [],
+  "route_stats": []
+}

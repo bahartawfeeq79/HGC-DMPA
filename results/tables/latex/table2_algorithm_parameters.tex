@@ -1,0 +1,16 @@
+% Algorithm Parameter Configurations and Fair Tuning Protocol
+\begin{tabular}{llrrll}
+\toprule
+Algorithm & Population & Archive & Budget & Main Parameters & Tuning Source \\
+\midrule
+HGC-DMPA & 40 & 40 & 3000 & $\alpha=0.7, \beta=0.3, \gamma=0.5, T_{\mathrm{rep}}=0.70, T_{\mathrm{nbr}}=8, P=0.5, \beta_L=1.5$ & Table IV / Independent Seeds \\
+MPA & 40 & 40 & 3000 & $P=0.5, \beta_L=1.5, P_{\mathrm{FADs}}=0.2$, flat continuous encoding & Faramarzi et al. (2020) \\
+NSGA-II & 40 & 40 & 3000 & $\mathrm{SBX}\ (\eta_c=15, p_c=0.9), \mathrm{PM}\ (\eta_m=20, p_m=1/N)$ & Deb et al. (2002) / pymoo \\
+NSGA-III & 40 & 40 & 3000 & 4D Das-Dennis reference directions, niching distance & Deb & Jain (2014) / pymoo \\
+MOEA/D & 40 & 40 & 3000 & Augmented Tchebycheff, $T_{\mathrm{nbr}}=8, F=0.5, CR=0.8, n_r=2$ & Zhang & Li (2007) \\
+MOPSO & 40 & 40 & 3000 & $w=0.5, c_1=1.5, c_2=1.5, v_{\max}=0.2(U_B-L_B)$ & Coello Coello et al. (2004) \\
+ZOA & 40 & 40 & 3000 & Foraging leader phase, $P_s=0.5$ defense phase & Trojovska et al. (2022) \\
+CPO & 40 & 40 & 3000 & Visual/acoustic quills defense, cyclic convergence & Abdel-Basset et al. (2024) \\
+WS-KSP & N/A & 40 & 3000 & $k=150$ simple paths $\times$ 20 3D simplex weight vectors & Maristany et al. (2021) \\
+\bottomrule
+\end{tabular}
